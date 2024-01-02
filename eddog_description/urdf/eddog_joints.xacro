@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" > 
+
+    <!-- *********  FR_hip joint ********* -->
+    <joint name="FR_hip_joint" type="revolute">
+        <axis xyz="-1 0 0"/>
+        <origin xyz="0.1699 -0.0406 0.0061" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="FR_hip_link"/>
+        <limit lower="-1.57" upper="1.57" velocity="1" effort="10"/>
+        <dynamics damping="0.01" friction="10000"/>
+    </joint>
+    <!-- *********  FL_hip  ********* -->
+    <joint name="FL_hip_joint" type="revolute">
+        <axis xyz="1 0 0"/>
+        <origin xyz="0.1699 0.037 0.0061" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="FL_hip_link"/>
+        <limit lower="-1.57" upper="1.57" velocity="1" effort="10"/>
+        <dynamics damping="0.01" friction="10000"/>
+    </joint>
+    <!-- *********  BR_hip  ********* -->
+    <joint name="BR_hip_joint" type="revolute">
+        <axis xyz="1 0 0"/>
+        <origin xyz="-0.1138 -0.0406 .0065" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="BR_hip_link"/>
+        <limit lower="-1.57" upper="1.57" velocity="1" effort="10"/>
+        <dynamics damping="0.01" friction="10000"/>
+    </joint>
+    <!-- *********  BL_hip  ********* -->
+    <joint name="BL_hip_joint" type="revolute">
+        <axis xyz="1 0 0"/>
+        <origin xyz="-0.1135 0.03725 .0065" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="BL_hip_link"/>
+        <limit lower="-1.57" upper="1.57" velocity="1" effort="10"/>
+        <dynamics damping="0.01" friction="10000"/>
+    </joint>
+
+
+
+    <!-- *********  FR_uleg joint ********* -->
+    <joint name="FR_uleg_joint" type="revolute">
+        <axis xyz="0 -1 0"/>
+        <origin xyz="-0.03 -0.0249 -0.01" rpy="0 0 0"/>
+        <parent link="FR_hip_link"/>
+        <child link="FR_uleg_link"/>
+        <limit lower="-1.57" upper="1.57" velocity="1" effort="10"/>
+        <dynamics damping="0.01" friction="10000"/>
+    </joint>
+    <!-- *********  FL_uleg  ********* -->
+    <joint name="FL_uleg_joint" type="revolute">
+        <axis xyz="0 -1 0"/>
+        <origin xyz="-0.03 0.0249 -0.01" rpy="0 0 0"/>
+        <parent link="FL_hip_link"/>
+        <child link="FL_uleg_link"/>
+        <limit lower="-1.57" upper="1.57" velocity="1" effort="10"/>
+        <dynamics damping="0.01" friction="10000"/>
+    </joint>
+    <!-- *********  BR_uleg  ********* -->
+    <joint name="BR_uleg_joint" type="revolute">
+        <axis xyz="0 -1 0"/>
+        <origin xyz="-0.03 -0.0249 -0.01" rpy="0 0 0"/>
+        <parent link="BR_hip_link"/>
+        <child link="BR_uleg_link"/>
+        <limit lower="-1.57" upper="1.57" velocity="1" effort="10"/>
+        <dynamics damping="0.01" friction="10000"/>
+    </joint>
+    <!-- *********  BL_uleg  ********* -->
+    <joint name="BL_uleg_joint" type="revolute">
+        <axis xyz="0 -1 0"/>
+        <origin xyz="-0.03 0.0249 -0.01" rpy="0 0 0"/>
+        <parent link="BL_hip_link"/>
+        <child link="BL_uleg_link"/>
+        <limit lower="-1.57" upper="1.57" velocity="1" effort="10"/>
+        <dynamics damping="0.01" friction="10000"/>
+    </joint>
+
+
+    <!-- *********  FR_lleg  ********* -->
+    <joint name="FR_lleg_joint" type="revolute">
+        <axis xyz="0 1 0"/>
+        <origin xyz="0.0084 -0.0091 -0.1076" rpy="0 1.57 0"/>
+        <parent link="FR_uleg_link"/>
+        <child link="FR_lleg_link"/>
+        <limit lower="-1.57" upper="1.57" velocity="3" effort="10"/>
+        <dynamics damping="0.01" friction="10000"/>
+    </joint>
+    <!-- *********  FL_lleg  ********* -->
+    <joint name="FL_lleg_joint" type="revolute">
+        <axis xyz="0 1 0"/>
+        <origin xyz="0.0084 0.0091 -0.1076" rpy="0 1.57 0"/>
+        <parent link="FL_uleg_link"/>
+        <child link="FL_lleg_link"/>
+        <limit lower="-1.57" upper="1.57" velocity="3" effort="10"/>
+        <dynamics damping="0.01" friction="10000"/>
+    </joint>
+    <!-- *********  BR_lleg  ********* -->
+    <joint name="BR_lleg_joint" type="revolute">
+        <origin xyz="0.0084 -0.0091 -0.1076" rpy="0 1.57 0"/>
+        <parent link="BR_uleg_link"/>
+        <child link="BR_lleg_link"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-1.57" upper="1.57" velocity="3" effort="10"/>
+        <dynamics damping="0.01" friction="10000"/>
+    </joint>
+    <!-- *********  BL_lleg  ********* -->
+    <joint name="BL_lleg_joint" type="revolute">
+        <axis xyz="0 1 0"/>
+        <origin xyz="0.0084 0.0091 -0.1076" rpy="0 1.57 0"/>
+        <parent link="BL_uleg_link"/>
+        <child link="BL_lleg_link"/>
+        <limit lower="-1.57" upper="1.57" velocity="3" effort="10"/>
+        <dynamics damping="0.01" friction="10000"/>
+    </joint>
+
+    
+
+
+    <!-- *********  FR_FOOT  ********* -->
+    <joint name="FR_foot_fixed" type="fixed">
+        <origin rpy="0 0 0" xyz="0.1348 -0.02795 -0.007"/>
+        <parent link="FR_lleg_link"/>
+        <child link="FR_foot"/>
+        <dynamics damping="0.1" friction="10000"/>
+      </joint>
+     <!-- *********  FL_FOOT  ********* -->
+    <joint name="FL_foot_fixed" type="fixed">
+        <origin rpy="0 0 0" xyz="0.1348 0.02795 -0.007"/>
+        <parent link="FL_lleg_link"/>
+        <child link="FL_foot"/>
+        <dynamics damping="0.1" friction="10000"/>
+    </joint>
+     <!-- *********  BR_FOOT  ********* -->
+    <joint name="BR_foot_fixed" type="fixed">
+        <origin rpy="0 0 0" xyz="0.1348 -0.02795 -0.007"/>
+        <parent link="BR_lleg_link"/>
+        <child link="BR_foot"/>
+        <dynamics damping="0.1" friction="10000"/>
+    </joint>
+    <!-- *********  BL_FOOT  ********* -->
+    <joint name="BL_foot_fixed" type="fixed">
+        <origin rpy="0 0 0" xyz="0.1348 0.02795 -0.007"/>
+        <parent link="BL_lleg_link"/>
+        <child link="BL_foot"/>
+        <dynamics damping="0.1" friction="10000"/>
+    </joint>
+    
+
+
+
+    <!-- *********  imu_sensor  ********* -->
+    <joint name="imu_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="imu_link"/>
+        <origin xyz="0 0 0.0001"/>
+    </joint>
+
+    
+    
+    
+</robot>

@@ -1,0 +1,78 @@
+[0.062s] Invoking command in '/home/edsols/Ed-dogws/build/eddog_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/edsols/Ed-dogws/build/eddog_controller -- -j6 -l6
+[0.106s] Built target ament_cmake_python_copy_Scripts
+[0.343s] running egg_info
+[0.343s] writing Scripts.egg-info/PKG-INFO
+[0.343s] writing dependency_links to Scripts.egg-info/dependency_links.txt
+[0.343s] writing top-level names to Scripts.egg-info/top_level.txt
+[0.345s] reading manifest file 'Scripts.egg-info/SOURCES.txt'
+[0.346s] writing manifest file 'Scripts.egg-info/SOURCES.txt'
+[0.369s] Built target ament_cmake_python_build_Scripts_egg
+[0.381s] Invoked command in '/home/edsols/Ed-dogws/build/eddog_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/edsols/Ed-dogws/build/eddog_controller -- -j6 -l6
+[0.411s] Invoking command in '/home/edsols/Ed-dogws/build/eddog_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/edsols/Ed-dogws/build/eddog_controller
+[0.417s] -- Install configuration: ""
+[0.417s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/environment/pythonpath.sh
+[0.417s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/environment/pythonpath.dsv
+[0.417s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts-0.0.0-py3.10.egg-info
+[0.417s] -- Installing: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.417s] -- Installing: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[0.417s] -- Installing: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.417s] -- Installing: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts-0.0.0-py3.10.egg-info/top_level.txt
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/InverseKinematics
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/InverseKinematics/__init__.py
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/InverseKinematics/robot_IK.py
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/__init__.py
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/RobotController
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/RobotController/CrawlGaitController.py
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/RobotController/PIDController.py
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/RobotController/__init__.py
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/RobotController/StateController.py
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/RobotController/RobotController.py
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/RobotController/GaitController.py
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/RobotController/RestController.py
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/RobotController/TrotGaitController.py
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/RobotController/StandController.py
+[0.418s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/robot_controller_gazebo.py
+[0.419s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/RoboticsUtilities
+[0.419s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/RoboticsUtilities/Transformations.py
+[0.419s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/RoboticsUtilities/__init__.py
+[0.445s] Listing '/home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts'...
+[0.445s] Listing '/home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/InverseKinematics'...
+[0.445s] Listing '/home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/RobotController'...
+[0.445s] Listing '/home/edsols/Ed-dogws/install/eddog_controller/local/lib/python3.10/dist-packages/Scripts/RoboticsUtilities'...
+[0.449s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/lib/eddog_controller/robot_controller_gazebo.py
+[0.449s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts
+[0.449s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/InverseKinematics
+[0.449s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/InverseKinematics/__init__.py
+[0.449s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/InverseKinematics/robot_IK.py
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/__init__.py
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/RobotController
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/RobotController/CrawlGaitController.py
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/RobotController/PIDController.py
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/RobotController/__init__.py
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/RobotController/StateController.py
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/RobotController/RobotController.py
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/RobotController/GaitController.py
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/RobotController/RestController.py
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/RobotController/TrotGaitController.py
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/RobotController/StandController.py
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/robot_controller_gazebo.py
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/RoboticsUtilities
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/RoboticsUtilities/Transformations.py
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/Scripts/RoboticsUtilities/__init__.py
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/ament_index/resource_index/package_run_dependencies/eddog_controller
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/ament_index/resource_index/parent_prefix_path/eddog_controller
+[0.450s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/environment/ament_prefix_path.sh
+[0.451s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/environment/ament_prefix_path.dsv
+[0.451s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/environment/path.sh
+[0.451s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/environment/path.dsv
+[0.451s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/local_setup.bash
+[0.451s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/local_setup.sh
+[0.452s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/local_setup.zsh
+[0.452s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/local_setup.dsv
+[0.452s] -- Installing: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/package.dsv
+[0.452s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/ament_index/resource_index/packages/eddog_controller
+[0.452s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/cmake/eddog_controllerConfig.cmake
+[0.452s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/cmake/eddog_controllerConfig-version.cmake
+[0.452s] -- Up-to-date: /home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/package.xml
+[0.453s] Invoked command in '/home/edsols/Ed-dogws/build/eddog_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/edsols/Ed-dogws/build/eddog_controller

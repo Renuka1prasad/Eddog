@@ -1,0 +1,84 @@
+[0.065s] Invoking command in '/home/edsols/Ed-dogws/build/eddog_teleop': AMENT_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:/home/edsols/pup/install/eddog_teleop:/home/edsols/pup/install/eddog_description:/home/edsols/pup/install/eddog_cam:/home/edsols/pup/install/eddog_msgs:/home/edsols/pup/install/eddog_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/edsols/Ed-dogws/install/eddog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edsols/Ed-dogws/install/eddog_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/edsols/Ed-dogws/eddog_teleop -DCMAKE_INSTALL_PREFIX=/home/edsols/Ed-dogws/install/eddog_teleop
+[0.124s] -- The C compiler identification is GNU 11.4.0
+[0.176s] -- The CXX compiler identification is GNU 11.4.0
+[0.183s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.248s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.329s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.329s] -- Detecting CXX compile features
+[0.329s] -- Detecting CXX compile features - done
+[0.332s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.489s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.576s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[0.577s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.624s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.630s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.637s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.650s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.861s] -- Found eddog_msgs: 0.0.0 (/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/cmake)
+[1.121s] -- Configuring done
+[1.126s] -- Generating done
+[1.127s] -- Build files have been written to: /home/edsols/Ed-dogws/build/eddog_teleop
+[1.135s] Invoked command in '/home/edsols/Ed-dogws/build/eddog_teleop' returned '0': AMENT_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:/home/edsols/pup/install/eddog_teleop:/home/edsols/pup/install/eddog_description:/home/edsols/pup/install/eddog_cam:/home/edsols/pup/install/eddog_msgs:/home/edsols/pup/install/eddog_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/edsols/Ed-dogws/install/eddog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edsols/Ed-dogws/install/eddog_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/edsols/Ed-dogws/eddog_teleop -DCMAKE_INSTALL_PREFIX=/home/edsols/Ed-dogws/install/eddog_teleop
+[1.135s] Invoking command in '/home/edsols/Ed-dogws/build/eddog_teleop': AMENT_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:/home/edsols/pup/install/eddog_teleop:/home/edsols/pup/install/eddog_description:/home/edsols/pup/install/eddog_cam:/home/edsols/pup/install/eddog_msgs:/home/edsols/pup/install/eddog_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/edsols/Ed-dogws/install/eddog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edsols/Ed-dogws/install/eddog_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edsols/Ed-dogws/build/eddog_teleop -- -j6 -l6
+[1.192s] Built target ament_cmake_python_copy_src
+[1.412s] running egg_info
+[1.412s] creating src.egg-info
+[1.412s] writing src.egg-info/PKG-INFO
+[1.412s] writing dependency_links to src.egg-info/dependency_links.txt
+[1.413s] writing top-level names to src.egg-info/top_level.txt
+[1.413s] writing manifest file 'src.egg-info/SOURCES.txt'
+[1.414s] reading manifest file 'src.egg-info/SOURCES.txt'
+[1.415s] writing manifest file 'src.egg-info/SOURCES.txt'
+[1.439s] Built target ament_cmake_python_build_src_egg
+[1.451s] Invoked command in '/home/edsols/Ed-dogws/build/eddog_teleop' returned '0': AMENT_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:/home/edsols/pup/install/eddog_teleop:/home/edsols/pup/install/eddog_description:/home/edsols/pup/install/eddog_cam:/home/edsols/pup/install/eddog_msgs:/home/edsols/pup/install/eddog_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/edsols/Ed-dogws/install/eddog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edsols/Ed-dogws/install/eddog_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edsols/Ed-dogws/build/eddog_teleop -- -j6 -l6
+[1.470s] Invoking command in '/home/edsols/Ed-dogws/build/eddog_teleop': AMENT_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:/home/edsols/pup/install/eddog_teleop:/home/edsols/pup/install/eddog_description:/home/edsols/pup/install/eddog_cam:/home/edsols/pup/install/eddog_msgs:/home/edsols/pup/install/eddog_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/edsols/Ed-dogws/install/eddog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edsols/Ed-dogws/install/eddog_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edsols/Ed-dogws/build/eddog_teleop
+[1.476s] -- Install configuration: ""
+[1.476s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/environment/pythonpath.sh
+[1.476s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/environment/pythonpath.dsv
+[1.476s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/local/lib/python3.10/dist-packages/src-0.0.0-py3.10.egg-info
+[1.476s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/local/lib/python3.10/dist-packages/src-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.476s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/local/lib/python3.10/dist-packages/src-0.0.0-py3.10.egg-info/PKG-INFO
+[1.476s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/local/lib/python3.10/dist-packages/src-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.476s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/local/lib/python3.10/dist-packages/src-0.0.0-py3.10.egg-info/top_level.txt
+[1.477s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/local/lib/python3.10/dist-packages/src
+[1.477s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/local/lib/python3.10/dist-packages/src/__init__.py
+[1.477s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/local/lib/python3.10/dist-packages/src/eddog_definitions.py
+[1.477s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/local/lib/python3.10/dist-packages/src/eddog_teleop_joy.py
+[1.477s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/local/lib/python3.10/dist-packages/src/joystick.py
+[1.506s] Listing '/home/edsols/Ed-dogws/install/eddog_teleop/local/lib/python3.10/dist-packages/src'...
+[1.506s] Compiling '/home/edsols/Ed-dogws/install/eddog_teleop/local/lib/python3.10/dist-packages/src/__init__.py'...
+[1.506s] Compiling '/home/edsols/Ed-dogws/install/eddog_teleop/local/lib/python3.10/dist-packages/src/eddog_definitions.py'...
+[1.507s] Compiling '/home/edsols/Ed-dogws/install/eddog_teleop/local/lib/python3.10/dist-packages/src/eddog_teleop_joy.py'...
+[1.507s] Compiling '/home/edsols/Ed-dogws/install/eddog_teleop/local/lib/python3.10/dist-packages/src/joystick.py'...
+[1.514s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/lib/eddog_teleop/eddog_definitions.py
+[1.514s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/lib/eddog_teleop/eddog_teleop_joy.py
+[1.514s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/lib/eddog_teleop/joystick.py
+[1.514s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/launch
+[1.514s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/launch/eddog_teleop.launch.py
+[1.514s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/src
+[1.515s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/src/__init__.py
+[1.515s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/src/eddog_definitions.py
+[1.515s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/src/eddog_teleop_joy.py
+[1.515s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/src/joystick.py
+[1.515s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/ament_index/resource_index/package_run_dependencies/eddog_teleop
+[1.515s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/ament_index/resource_index/parent_prefix_path/eddog_teleop
+[1.515s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/environment/ament_prefix_path.sh
+[1.515s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/environment/ament_prefix_path.dsv
+[1.515s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/environment/path.sh
+[1.515s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/environment/path.dsv
+[1.516s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/local_setup.bash
+[1.516s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/local_setup.sh
+[1.516s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/local_setup.zsh
+[1.516s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/local_setup.dsv
+[1.517s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/package.dsv
+[1.517s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/ament_index/resource_index/packages/eddog_teleop
+[1.517s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/cmake/eddog_teleopConfig.cmake
+[1.517s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/cmake/eddog_teleopConfig-version.cmake
+[1.517s] -- Installing: /home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/package.xml
+[1.518s] Invoked command in '/home/edsols/Ed-dogws/build/eddog_teleop' returned '0': AMENT_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:/home/edsols/pup/install/eddog_teleop:/home/edsols/pup/install/eddog_description:/home/edsols/pup/install/eddog_cam:/home/edsols/pup/install/eddog_msgs:/home/edsols/pup/install/eddog_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/edsols/Ed-dogws/install/eddog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edsols/Ed-dogws/install/eddog_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edsols/Ed-dogws/build/eddog_teleop

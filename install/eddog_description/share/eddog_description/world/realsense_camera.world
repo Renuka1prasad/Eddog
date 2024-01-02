@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://your_realsense_camera_model</uri>
+    </include>
+  </world>
+</sdf>

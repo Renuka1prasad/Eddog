@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="Ed-Dog">
+
+    <xacro:include filename="eddog_links.xacro" /> 
+    <xacro:include filename="eddog_joints.xacro" /> 
+    <xacro:include filename="eddog_gazebo.xacro" /> 
+    <!-- <xacro:include filename="eddog_transmissions.xacro" /> -->
+    <xacro:include filename="gazebo_ros2_control_plugin.xacro" /> 
+    <!-- <xacro:include filename="camera.xacro" />  -->
+    <!-- <xacro:include filename="depth_camera.xacro" />  -->
+</robot>

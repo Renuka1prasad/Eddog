@@ -1,0 +1,4 @@
+source;share/eddog_description/local_setup.bash
+source;share/eddog_description/local_setup.dsv
+source;share/eddog_description/local_setup.sh
+source;share/eddog_description/local_setup.zsh

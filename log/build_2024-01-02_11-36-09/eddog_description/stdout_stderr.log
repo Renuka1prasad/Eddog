@@ -1,0 +1,75 @@
+Built target ament_cmake_python_copy_src
+running egg_info
+writing src.egg-info/PKG-INFO
+writing dependency_links to src.egg-info/dependency_links.txt
+writing top-level names to src.egg-info/top_level.txt
+reading manifest file 'src.egg-info/SOURCES.txt'
+writing manifest file 'src.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_src_egg
+-- Install configuration: ""
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/environment/pythonpath.sh
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/environment/pythonpath.dsv
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/local/lib/python3.10/dist-packages/src-0.0.0-py3.10.egg-info
+-- Installing: /home/edsols/Ed-dogws/install/eddog_description/local/lib/python3.10/dist-packages/src-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/edsols/Ed-dogws/install/eddog_description/local/lib/python3.10/dist-packages/src-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/edsols/Ed-dogws/install/eddog_description/local/lib/python3.10/dist-packages/src-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/edsols/Ed-dogws/install/eddog_description/local/lib/python3.10/dist-packages/src-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/local/lib/python3.10/dist-packages/src
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/local/lib/python3.10/dist-packages/src/fake_oden.py
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/local/lib/python3.10/dist-packages/src/__init__.py
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/local/lib/python3.10/dist-packages/src/eddog_gazebo_joint_controller.py
+Listing '/home/edsols/Ed-dogws/install/eddog_description/local/lib/python3.10/dist-packages/src'...
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/lib/eddog_description/fake_oden.py
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/lib/eddog_description/eddog_gazebo_joint_controller.py
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/meshes
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/meshes/right_leg.stl
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/meshes/body.stl
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/meshes/left_arm.stl
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/meshes/foot.stl
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/meshes/d415.stl
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/meshes/left_leg.stl
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/meshes/left_coax.stl
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/meshes/right_coax.stl
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/meshes/right_arm.stl
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/meshes/plug_collision.stl
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/urdf
+-- Installing: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/urdf/_materials.urdf.xacro
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/urdf/eddog_joints.xacro
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/urdf/eddog_gazebo.xacro
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/urdf/gazebo_ros2_control_plugin.xacro
+-- Installing: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/urdf/test_d415_camera.urdf.xacro
+-- Installing: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/urdf/_d415.urdf.xacro
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/urdf/eddog_transmissions.xacro
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/urdf/eddog.urdf.xacro
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/urdf/eddog_links.xacro
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/launch
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/launch/gazebo.launch.py
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/launch/display.launch.py
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/launch/gazebo_allpkgs.launch.py
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/config
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/config/display.rviz
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/config/eddog_controller.yaml
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/src
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/src/fake_oden.py
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/src/__init__.py
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/src/eddog_gazebo_joint_controller.py
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/world
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/world/contact.world
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/world/test_world.world
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/world/realsense_camera.world
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/world/dolly_city.world
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/ament_index/resource_index/package_run_dependencies/eddog_description
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/ament_index/resource_index/parent_prefix_path/eddog_description
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/environment/path.sh
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/environment/path.dsv
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/local_setup.bash
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/local_setup.sh
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/local_setup.zsh
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/local_setup.dsv
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/package.dsv
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/ament_index/resource_index/packages/eddog_description
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/cmake/eddog_descriptionConfig.cmake
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/cmake/eddog_descriptionConfig-version.cmake
+-- Up-to-date: /home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/package.xml

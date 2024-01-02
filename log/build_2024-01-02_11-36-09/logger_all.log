@@ -1,0 +1,336 @@
+[0.857s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.857s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd14074a440>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd140bd6fb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd140bd6fb0>>)
+[0.896s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.896s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.896s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.896s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.896s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.896s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.896s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/edsols/Ed-dogws'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_controller) by extension 'ignore'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_controller) by extension 'ignore_ament_install'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_controller) by extensions ['colcon_pkg']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_controller) by extension 'colcon_pkg'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_controller) by extensions ['colcon_meta']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_controller) by extension 'colcon_meta'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_controller) by extensions ['ros']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_controller) by extension 'ros'
+[0.907s] DEBUG:colcon.colcon_core.package_identification:Package 'eddog_controller' with type 'ros.ament_cmake' and name 'eddog_controller'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_description) by extensions ['ignore', 'ignore_ament_install']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_description) by extension 'ignore'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_description) by extension 'ignore_ament_install'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_description) by extensions ['colcon_pkg']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_description) by extension 'colcon_pkg'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_description) by extensions ['colcon_meta']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_description) by extension 'colcon_meta'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_description) by extensions ['ros']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_description) by extension 'ros'
+[0.908s] DEBUG:colcon.colcon_core.package_identification:Package 'eddog_description' with type 'ros.ament_cmake' and name 'eddog_description'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_msgs) by extension 'ignore'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_msgs) by extension 'ignore_ament_install'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_msgs) by extensions ['colcon_pkg']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_msgs) by extension 'colcon_pkg'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_msgs) by extensions ['colcon_meta']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_msgs) by extension 'colcon_meta'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_msgs) by extensions ['ros']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_msgs) by extension 'ros'
+[0.909s] DEBUG:colcon.colcon_core.package_identification:Package 'eddog_msgs' with type 'ros.ament_cmake' and name 'eddog_msgs'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_teleop) by extension 'ignore'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_teleop) by extension 'ignore_ament_install'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_teleop) by extensions ['colcon_pkg']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_teleop) by extension 'colcon_pkg'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_teleop) by extensions ['colcon_meta']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_teleop) by extension 'colcon_meta'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_teleop) by extensions ['ros']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(eddog_teleop) by extension 'ros'
+[0.910s] DEBUG:colcon.colcon_core.package_identification:Package 'eddog_teleop' with type 'ros.ament_cmake' and name 'eddog_teleop'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.993s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.993s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.020s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/edsols/pup/install
+[1.033s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 333 installed packages in /opt/ros/humble
+[1.035s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.108s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'eddog_msgs' is in: /home/edsols/pup/install/eddog_msgs
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding eddog_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.121s] Level 5:colcon.colcon_core.verb:set package 'eddog_controller' build argument 'cmake_args' from command line to 'None'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'eddog_controller' build argument 'cmake_target' from command line to 'None'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'eddog_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'eddog_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'eddog_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'eddog_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'eddog_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'eddog_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'eddog_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.122s] DEBUG:colcon.colcon_core.verb:Building package 'eddog_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edsols/Ed-dogws/build/eddog_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edsols/Ed-dogws/install/eddog_controller', 'merge_install': False, 'path': '/home/edsols/Ed-dogws/eddog_controller', 'symlink_install': False, 'test_result_base': None}
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'eddog_msgs' build argument 'cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'eddog_msgs' build argument 'cmake_target' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'eddog_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'eddog_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'eddog_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'eddog_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'eddog_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'eddog_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'eddog_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.135s] DEBUG:colcon.colcon_core.verb:Building package 'eddog_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edsols/Ed-dogws/build/eddog_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edsols/Ed-dogws/install/eddog_msgs', 'merge_install': False, 'path': '/home/edsols/Ed-dogws/eddog_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'eddog_description' build argument 'cmake_args' from command line to 'None'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'eddog_description' build argument 'cmake_target' from command line to 'None'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'eddog_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'eddog_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'eddog_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'eddog_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'eddog_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'eddog_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'eddog_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.148s] DEBUG:colcon.colcon_core.verb:Building package 'eddog_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edsols/Ed-dogws/build/eddog_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edsols/Ed-dogws/install/eddog_description', 'merge_install': False, 'path': '/home/edsols/Ed-dogws/eddog_description', 'symlink_install': False, 'test_result_base': None}
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'eddog_teleop' build argument 'cmake_args' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'eddog_teleop' build argument 'cmake_target' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'eddog_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'eddog_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'eddog_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'eddog_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'eddog_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'eddog_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'eddog_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.161s] DEBUG:colcon.colcon_core.verb:Building package 'eddog_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edsols/Ed-dogws/build/eddog_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edsols/Ed-dogws/install/eddog_teleop', 'merge_install': False, 'path': '/home/edsols/Ed-dogws/eddog_teleop', 'symlink_install': False, 'test_result_base': None}
+[1.175s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.188s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.188s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/edsols/Ed-dogws/eddog_msgs' with build type 'ament_cmake'
+[1.188s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/edsols/Ed-dogws/eddog_msgs'
+[1.203s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.203s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/edsols/Ed-dogws/eddog_controller' with build type 'ament_cmake'
+[1.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/edsols/Ed-dogws/eddog_controller'
+[1.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edsols/Ed-dogws/build/eddog_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/edsols/Ed-dogws/build/eddog_msgs -- -j6 -l6
+[1.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edsols/Ed-dogws/build/eddog_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/edsols/Ed-dogws/build/eddog_controller -- -j6 -l6
+[1.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edsols/Ed-dogws/build/eddog_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/edsols/Ed-dogws/build/eddog_controller -- -j6 -l6
+[1.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edsols/Ed-dogws/build/eddog_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/edsols/Ed-dogws/build/eddog_controller
+[1.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edsols/Ed-dogws/build/eddog_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/edsols/Ed-dogws/build/eddog_msgs -- -j6 -l6
+[1.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eddog_controller)
+[1.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edsols/Ed-dogws/build/eddog_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/edsols/Ed-dogws/build/eddog_controller
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_controller' for CMake module files
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_controller' for CMake config files
+[1.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('eddog_controller', 'cmake_prefix_path')
+[1.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/hook/cmake_prefix_path.ps1'
+[1.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/hook/cmake_prefix_path.dsv'
+[1.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/hook/cmake_prefix_path.sh'
+[1.727s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_controller/lib'
+[1.727s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_controller/bin'
+[1.727s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_controller/lib/pkgconfig/eddog_controller.pc'
+[1.727s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_controller/lib/python3.10/site-packages'
+[1.728s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_controller/bin'
+[1.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/package.ps1'
+[1.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/package.dsv'
+[1.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/package.sh'
+[1.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/package.bash'
+[1.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/package.zsh'
+[1.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edsols/Ed-dogws/install/eddog_controller/share/colcon-core/packages/eddog_controller)
+[1.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eddog_controller)
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_controller' for CMake module files
+[1.795s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_controller' for CMake config files
+[1.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('eddog_controller', 'cmake_prefix_path')
+[1.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/hook/cmake_prefix_path.ps1'
+[1.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/hook/cmake_prefix_path.dsv'
+[1.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/hook/cmake_prefix_path.sh'
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_controller/lib'
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_controller/bin'
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_controller/lib/pkgconfig/eddog_controller.pc'
+[1.810s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_controller/lib/python3.10/site-packages'
+[1.810s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_controller/bin'
+[1.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/package.ps1'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/package.dsv'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/package.sh'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/package.bash'
+[1.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_controller/share/eddog_controller/package.zsh'
+[1.825s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edsols/Ed-dogws/install/eddog_controller/share/colcon-core/packages/eddog_controller)
+[1.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edsols/Ed-dogws/build/eddog_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/edsols/Ed-dogws/build/eddog_msgs
+[1.872s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eddog_msgs)
+[1.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edsols/Ed-dogws/build/eddog_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/edsols/Ed-dogws/build/eddog_msgs
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_msgs' for CMake module files
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_msgs' for CMake config files
+[1.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('eddog_msgs', 'cmake_prefix_path')
+[1.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/hook/cmake_prefix_path.ps1'
+[1.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/hook/cmake_prefix_path.dsv'
+[1.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/hook/cmake_prefix_path.sh'
+[1.900s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_msgs/lib'
+[1.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('eddog_msgs', 'ld_library_path_lib')
+[1.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/hook/ld_library_path_lib.ps1'
+[1.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/hook/ld_library_path_lib.dsv'
+[1.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/hook/ld_library_path_lib.sh'
+[1.914s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_msgs/bin'
+[1.914s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_msgs/lib/pkgconfig/eddog_msgs.pc'
+[1.914s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_msgs/lib/python3.10/site-packages'
+[1.914s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_msgs/bin'
+[1.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/package.ps1'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/package.dsv'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/package.sh'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/package.bash'
+[1.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/package.zsh'
+[1.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edsols/Ed-dogws/install/eddog_msgs/share/colcon-core/packages/eddog_msgs)
+[2.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eddog_msgs)
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_msgs' for CMake module files
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_msgs' for CMake config files
+[2.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('eddog_msgs', 'cmake_prefix_path')
+[2.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/hook/cmake_prefix_path.ps1'
+[2.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/hook/cmake_prefix_path.dsv'
+[2.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/hook/cmake_prefix_path.sh'
+[2.114s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_msgs/lib'
+[2.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('eddog_msgs', 'ld_library_path_lib')
+[2.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/hook/ld_library_path_lib.ps1'
+[2.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/hook/ld_library_path_lib.dsv'
+[2.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/hook/ld_library_path_lib.sh'
+[2.128s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_msgs/bin'
+[2.128s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_msgs/lib/pkgconfig/eddog_msgs.pc'
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_msgs/lib/python3.10/site-packages'
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_msgs/bin'
+[2.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/package.ps1'
+[2.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/package.dsv'
+[2.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/package.sh'
+[2.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/package.bash'
+[2.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_msgs/share/eddog_msgs/package.zsh'
+[2.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edsols/Ed-dogws/install/eddog_msgs/share/colcon-core/packages/eddog_msgs)
+[2.143s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/edsols/Ed-dogws/eddog_description' with build type 'ament_cmake'
+[2.143s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/edsols/Ed-dogws/eddog_description'
+[2.157s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.157s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.198s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/edsols/Ed-dogws/eddog_teleop' with build type 'ament_cmake'
+[2.198s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/edsols/Ed-dogws/eddog_teleop'
+[2.211s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.211s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edsols/Ed-dogws/build/eddog_description': AMENT_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:/home/edsols/pup/install/eddog_teleop:/home/edsols/pup/install/eddog_description:/home/edsols/pup/install/eddog_cam:/home/edsols/pup/install/eddog_msgs:/home/edsols/pup/install/eddog_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/edsols/Ed-dogws/install/eddog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edsols/Ed-dogws/install/eddog_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edsols/Ed-dogws/build/eddog_description -- -j6 -l6
+[2.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edsols/Ed-dogws/build/eddog_teleop': AMENT_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:/home/edsols/pup/install/eddog_teleop:/home/edsols/pup/install/eddog_description:/home/edsols/pup/install/eddog_cam:/home/edsols/pup/install/eddog_msgs:/home/edsols/pup/install/eddog_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/edsols/Ed-dogws/install/eddog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edsols/Ed-dogws/install/eddog_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edsols/Ed-dogws/build/eddog_teleop -- -j6 -l6
+[2.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edsols/Ed-dogws/build/eddog_description' returned '0': AMENT_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:/home/edsols/pup/install/eddog_teleop:/home/edsols/pup/install/eddog_description:/home/edsols/pup/install/eddog_cam:/home/edsols/pup/install/eddog_msgs:/home/edsols/pup/install/eddog_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/edsols/Ed-dogws/install/eddog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edsols/Ed-dogws/install/eddog_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edsols/Ed-dogws/build/eddog_description -- -j6 -l6
+[2.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edsols/Ed-dogws/build/eddog_description': AMENT_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:/home/edsols/pup/install/eddog_teleop:/home/edsols/pup/install/eddog_description:/home/edsols/pup/install/eddog_cam:/home/edsols/pup/install/eddog_msgs:/home/edsols/pup/install/eddog_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/edsols/Ed-dogws/install/eddog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edsols/Ed-dogws/install/eddog_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edsols/Ed-dogws/build/eddog_description
+[2.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edsols/Ed-dogws/build/eddog_teleop' returned '0': AMENT_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:/home/edsols/pup/install/eddog_teleop:/home/edsols/pup/install/eddog_description:/home/edsols/pup/install/eddog_cam:/home/edsols/pup/install/eddog_msgs:/home/edsols/pup/install/eddog_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/edsols/Ed-dogws/install/eddog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edsols/Ed-dogws/install/eddog_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edsols/Ed-dogws/build/eddog_teleop -- -j6 -l6
+[2.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edsols/Ed-dogws/build/eddog_teleop': AMENT_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:/home/edsols/pup/install/eddog_teleop:/home/edsols/pup/install/eddog_description:/home/edsols/pup/install/eddog_cam:/home/edsols/pup/install/eddog_msgs:/home/edsols/pup/install/eddog_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/edsols/Ed-dogws/install/eddog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edsols/Ed-dogws/install/eddog_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edsols/Ed-dogws/build/eddog_teleop
+[2.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eddog_description)
+[2.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edsols/Ed-dogws/build/eddog_description' returned '0': AMENT_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:/home/edsols/pup/install/eddog_teleop:/home/edsols/pup/install/eddog_description:/home/edsols/pup/install/eddog_cam:/home/edsols/pup/install/eddog_msgs:/home/edsols/pup/install/eddog_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/edsols/Ed-dogws/install/eddog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edsols/Ed-dogws/install/eddog_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edsols/Ed-dogws/build/eddog_description
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_description' for CMake module files
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_description' for CMake config files
+[2.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('eddog_description', 'cmake_prefix_path')
+[2.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/hook/cmake_prefix_path.ps1'
+[2.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/hook/cmake_prefix_path.dsv'
+[2.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/hook/cmake_prefix_path.sh'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_description/lib'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_description/bin'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_description/lib/pkgconfig/eddog_description.pc'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_description/lib/python3.10/site-packages'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_description/bin'
+[2.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/package.ps1'
+[2.641s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/package.dsv'
+[2.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/package.sh'
+[2.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/package.bash'
+[2.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/package.zsh'
+[2.642s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edsols/Ed-dogws/install/eddog_description/share/colcon-core/packages/eddog_description)
+[2.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eddog_teleop)
+[2.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edsols/Ed-dogws/build/eddog_teleop' returned '0': AMENT_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edsols/Ed-dogws/install/eddog_msgs:/home/edsols/pup/install/eddog_teleop:/home/edsols/pup/install/eddog_description:/home/edsols/pup/install/eddog_cam:/home/edsols/pup/install/eddog_msgs:/home/edsols/pup/install/eddog_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/edsols/Ed-dogws/install/eddog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edsols/Ed-dogws/install/eddog_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edsols/Ed-dogws/build/eddog_teleop
+[2.656s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_teleop' for CMake module files
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_teleop' for CMake config files
+[2.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('eddog_teleop', 'cmake_prefix_path')
+[2.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/hook/cmake_prefix_path.ps1'
+[2.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/hook/cmake_prefix_path.dsv'
+[2.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/hook/cmake_prefix_path.sh'
+[2.671s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_teleop/lib'
+[2.671s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_teleop/bin'
+[2.671s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_teleop/lib/pkgconfig/eddog_teleop.pc'
+[2.671s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_teleop/lib/python3.10/site-packages'
+[2.671s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_teleop/bin'
+[2.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/package.ps1'
+[2.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/package.dsv'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/package.sh'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/package.bash'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/package.zsh'
+[2.685s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edsols/Ed-dogws/install/eddog_teleop/share/colcon-core/packages/eddog_teleop)
+[2.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eddog_description)
+[2.713s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_description' for CMake module files
+[2.713s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_description' for CMake config files
+[2.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('eddog_description', 'cmake_prefix_path')
+[2.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/hook/cmake_prefix_path.ps1'
+[2.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/hook/cmake_prefix_path.dsv'
+[2.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/hook/cmake_prefix_path.sh'
+[2.728s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_description/lib'
+[2.728s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_description/bin'
+[2.728s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_description/lib/pkgconfig/eddog_description.pc'
+[2.728s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_description/lib/python3.10/site-packages'
+[2.728s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_description/bin'
+[2.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/package.ps1'
+[2.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/package.dsv'
+[2.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/package.sh'
+[2.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/package.bash'
+[2.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_description/share/eddog_description/package.zsh'
+[2.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edsols/Ed-dogws/install/eddog_description/share/colcon-core/packages/eddog_description)
+[2.757s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eddog_teleop)
+[2.771s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_teleop' for CMake module files
+[2.771s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_teleop' for CMake config files
+[2.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('eddog_teleop', 'cmake_prefix_path')
+[2.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/hook/cmake_prefix_path.ps1'
+[2.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/hook/cmake_prefix_path.dsv'
+[2.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/hook/cmake_prefix_path.sh'
+[2.786s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_teleop/lib'
+[2.786s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_teleop/bin'
+[2.786s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_teleop/lib/pkgconfig/eddog_teleop.pc'
+[2.786s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_teleop/lib/python3.10/site-packages'
+[2.786s] Level 1:colcon.colcon_core.environment:checking '/home/edsols/Ed-dogws/install/eddog_teleop/bin'
+[2.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/package.ps1'
+[2.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/package.dsv'
+[2.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/package.sh'
+[2.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/package.bash'
+[2.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/edsols/Ed-dogws/install/eddog_teleop/share/eddog_teleop/package.zsh'
+[2.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edsols/Ed-dogws/install/eddog_teleop/share/colcon-core/packages/eddog_teleop)
+[2.802s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.803s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.803s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.803s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.829s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.829s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.829s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.839s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.852s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edsols/Ed-dogws/install/local_setup.ps1'
+[2.853s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/edsols/Ed-dogws/install/_local_setup_util_ps1.py'
+[2.854s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edsols/Ed-dogws/install/setup.ps1'
+[2.868s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edsols/Ed-dogws/install/local_setup.sh'
+[2.869s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/edsols/Ed-dogws/install/_local_setup_util_sh.py'
+[2.869s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edsols/Ed-dogws/install/setup.sh'
+[2.883s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edsols/Ed-dogws/install/local_setup.bash'
+[2.884s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edsols/Ed-dogws/install/setup.bash'
+[2.898s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edsols/Ed-dogws/install/local_setup.zsh'
+[2.899s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edsols/Ed-dogws/install/setup.zsh'

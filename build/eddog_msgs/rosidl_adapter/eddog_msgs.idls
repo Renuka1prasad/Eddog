@@ -1,0 +1,8 @@
+/home/edsols/Ed-dogws/build/eddog_msgs/rosidl_adapter/eddog_msgs:msg/JoyCtrlCmds.idl
+/home/edsols/Ed-dogws/build/eddog_msgs/rosidl_adapter/eddog_msgs:msg/Limits.idl
+/home/edsols/Ed-dogws/build/eddog_msgs/rosidl_adapter/eddog_msgs:msg/Geometry.idl
+/home/edsols/Ed-dogws/build/eddog_msgs/rosidl_adapter/eddog_msgs:msg/IMUInfo.idl
+/home/edsols/Ed-dogws/build/eddog_msgs/rosidl_adapter/eddog_msgs:msg/Extrinsics.idl
+/home/edsols/Ed-dogws/build/eddog_msgs/rosidl_adapter/eddog_msgs:msg/Metadata.idl
+/home/edsols/Ed-dogws/build/eddog_msgs/rosidl_adapter/eddog_msgs:msg/RGBD.idl
+/home/edsols/Ed-dogws/build/eddog_msgs/rosidl_adapter/eddog_msgs:srv/DeviceInfo.idl

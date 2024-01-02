@@ -1,0 +1,15 @@
+/home/edsols/Ed-dogws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+/home/edsols/Ed-dogws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+/home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+/home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+/home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+/home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+/home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+/home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+/home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+/home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+/home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/package.dsv
+/home/edsols/Ed-dogws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+/home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+/home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+/home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/package.xml

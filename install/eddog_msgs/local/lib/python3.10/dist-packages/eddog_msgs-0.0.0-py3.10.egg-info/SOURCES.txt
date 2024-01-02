@@ -1,0 +1,16 @@
+setup.py
+eddog_msgs/__init__.py
+eddog_msgs.egg-info/PKG-INFO
+eddog_msgs.egg-info/SOURCES.txt
+eddog_msgs.egg-info/dependency_links.txt
+eddog_msgs.egg-info/top_level.txt
+eddog_msgs/msg/__init__.py
+eddog_msgs/msg/_extrinsics.py
+eddog_msgs/msg/_geometry.py
+eddog_msgs/msg/_imu_info.py
+eddog_msgs/msg/_joy_ctrl_cmds.py
+eddog_msgs/msg/_limits.py
+eddog_msgs/msg/_metadata.py
+eddog_msgs/msg/_rgbd.py
+eddog_msgs/srv/__init__.py
+eddog_msgs/srv/_device_info.py

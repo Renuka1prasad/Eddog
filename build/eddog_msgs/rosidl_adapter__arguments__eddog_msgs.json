@@ -1,0 +1,13 @@
+{
+  "package_name": "eddog_msgs",
+  "non_idl_tuples": [
+    "/home/edsols/Ed-dogws/eddog_msgs:msg/JoyCtrlCmds.msg",
+    "/home/edsols/Ed-dogws/eddog_msgs:msg/Limits.msg",
+    "/home/edsols/Ed-dogws/eddog_msgs:msg/Geometry.msg",
+    "/home/edsols/Ed-dogws/eddog_msgs:msg/IMUInfo.msg",
+    "/home/edsols/Ed-dogws/eddog_msgs:msg/Extrinsics.msg",
+    "/home/edsols/Ed-dogws/eddog_msgs:msg/Metadata.msg",
+    "/home/edsols/Ed-dogws/eddog_msgs:msg/RGBD.msg",
+    "/home/edsols/Ed-dogws/eddog_msgs:srv/DeviceInfo.srv"
+  ]
+}

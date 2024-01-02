@@ -1,0 +1,42 @@
+[0.062s] Invoking command in '/home/edsols/Ed-dogws/build/realsense2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/edsols/Ed-dogws/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/edsols/Ed-dogws/install/realsense2_camera
+[0.105s] -- The C compiler identification is GNU 11.4.0
+[0.150s] -- The CXX compiler identification is GNU 11.4.0
+[0.156s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.217s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.217s] -- Detecting C compile features
+[0.218s] -- Detecting C compile features - done
+[0.220s] -- Detecting CXX compiler ABI info
+[0.284s] -- Detecting CXX compiler ABI info - done
+[0.290s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.290s] -- Detecting CXX compile features
+[0.290s] -- Detecting CXX compile features - done
+[0.293s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.438s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.518s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.582s] -- Added test 'lint_cmake' to check CMake code style
+[0.583s] -- Added test 'xmllint' to check XML markup files
+[0.584s] -- Configuring done
+[0.586s] -- Generating done
+[0.587s] -- Build files have been written to: /home/edsols/Ed-dogws/build/realsense2_camera
+[0.590s] Invoked command in '/home/edsols/Ed-dogws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/edsols/Ed-dogws/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/edsols/Ed-dogws/install/realsense2_camera
+[0.592s] Invoking command in '/home/edsols/Ed-dogws/build/realsense2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/edsols/Ed-dogws/build/realsense2_camera -- -j6 -l6
+[0.621s] Invoked command in '/home/edsols/Ed-dogws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/edsols/Ed-dogws/build/realsense2_camera -- -j6 -l6
+[0.646s] Invoking command in '/home/edsols/Ed-dogws/build/realsense2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/edsols/Ed-dogws/build/realsense2_camera
+[0.651s] -- Install configuration: ""
+[0.651s] -- Installing: /home/edsols/Ed-dogws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[0.651s] -- Installing: /home/edsols/Ed-dogws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[0.652s] -- Installing: /home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[0.652s] -- Installing: /home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[0.652s] -- Installing: /home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[0.652s] -- Installing: /home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[0.652s] -- Installing: /home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[0.652s] -- Installing: /home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[0.652s] -- Installing: /home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[0.652s] -- Installing: /home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[0.652s] -- Installing: /home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/package.dsv
+[0.652s] -- Installing: /home/edsols/Ed-dogws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[0.653s] -- Installing: /home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[0.653s] -- Installing: /home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[0.653s] -- Installing: /home/edsols/Ed-dogws/install/realsense2_camera/share/realsense2_camera/package.xml
+[0.654s] Invoked command in '/home/edsols/Ed-dogws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/edsols/Ed-dogws/build/realsense2_camera
